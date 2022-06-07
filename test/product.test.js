@@ -12,5 +12,5 @@ test("deve aceitar venda de mais que uma unidade", () => {
   let produto = new Product("Celular", 500.0, 900.0, 10);
 
   sellProduct(produto, 3);
-  expect(produto.quantity).toBe(6);
+  expect(produto.quantity).toBe(7);
 });
